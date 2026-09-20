@@ -2,7 +2,7 @@
 
 const nome1 = 'Alana' // string
 const nome2 = "Alana" // string
-const nome3 = `Alana` // string
+const nome3 = `Alana` // string - template string
 const num1 = 10       // number
 const num2 = 10.52    // number
 
@@ -15,7 +15,8 @@ let sobrenomeAluno = null // Nulo -> Também não aponta para lugar nenhum na me
 const aprovado = false // Tipo boolean -> true or false (valor lógico). Sempre que for mudar alguma coisa dentro da aplicação, um desvio condicional, usa-se boolean.
 
 // Para checar o tipo e o valor
-console.log(typeof aprovado, aprovado)
+console.log(typeof aprovado, aprovado) // o primeiro aprovado mostra o tipo, o segundo aprovado mostra o valor. 
+// Sempre que quiser ver o tipo e o valor, é só repetir o nome da variável.
 
 // Para checar só o tipo
-console.log(typeof sobrenomeAluno)
+console.log(typeof sobrenomeAluno, sobrenomeAluno) //null em JS é considerado objeto
